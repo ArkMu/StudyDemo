@@ -1,0 +1,280 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CC28742E1C51CE930099CAEE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CC28742D1C51CE930099CAEE /* main.m */; };
+		CC2874361C51CF310099CAEE /* Clock.m in Sources */ = {isa = PBXBuildFile; fileRef = CC2874351C51CF310099CAEE /* Clock.m */; };
+		CC2874391C51CF450099CAEE /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = CC2874381C51CF450099CAEE /* Person.m */; };
+		CC28743C1C51CF4E0099CAEE /* Baby.m in Sources */ = {isa = PBXBuildFile; fileRef = CC28743B1C51CF4E0099CAEE /* Baby.m */; };
+		CC28743F1C51CF540099CAEE /* Mother.m in Sources */ = {isa = PBXBuildFile; fileRef = CC28743E1C51CF540099CAEE /* Mother.m */; };
+		CC2874421C51CF5F0099CAEE /* Father.m in Sources */ = {isa = PBXBuildFile; fileRef = CC2874411C51CF5F0099CAEE /* Father.m */; };
+		CC2874451C51CFD50099CAEE /* NSObject+CareBaby.m in Sources */ = {isa = PBXBuildFile; fileRef = CC2874441C51CFD50099CAEE /* NSObject+CareBaby.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		CC2874281C51CE930099CAEE /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		CC28742A1C51CE930099CAEE /* CareBaby */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CareBaby; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC28742D1C51CE930099CAEE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CC2874341C51CF310099CAEE /* Clock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Clock.h; sourceTree = "<group>"; };
+		CC2874351C51CF310099CAEE /* Clock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Clock.m; sourceTree = "<group>"; };
+		CC2874371C51CF450099CAEE /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		CC2874381C51CF450099CAEE /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		CC28743A1C51CF4E0099CAEE /* Baby.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Baby.h; sourceTree = "<group>"; };
+		CC28743B1C51CF4E0099CAEE /* Baby.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Baby.m; sourceTree = "<group>"; };
+		CC28743D1C51CF540099CAEE /* Mother.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Mother.h; sourceTree = "<group>"; };
+		CC28743E1C51CF540099CAEE /* Mother.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Mother.m; sourceTree = "<group>"; };
+		CC2874401C51CF5F0099CAEE /* Father.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Father.h; sourceTree = "<group>"; };
+		CC2874411C51CF5F0099CAEE /* Father.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Father.m; sourceTree = "<group>"; };
+		CC2874431C51CFD50099CAEE /* NSObject+CareBaby.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+CareBaby.h"; sourceTree = "<group>"; };
+		CC2874441C51CFD50099CAEE /* NSObject+CareBaby.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+CareBaby.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CC2874271C51CE930099CAEE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CC2874211C51CE930099CAEE = {
+			isa = PBXGroup;
+			children = (
+				CC28742C1C51CE930099CAEE /* CareBaby */,
+				CC28742B1C51CE930099CAEE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CC28742B1C51CE930099CAEE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CC28742A1C51CE930099CAEE /* CareBaby */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CC28742C1C51CE930099CAEE /* CareBaby */ = {
+			isa = PBXGroup;
+			children = (
+				CC28742D1C51CE930099CAEE /* main.m */,
+				CC2874341C51CF310099CAEE /* Clock.h */,
+				CC2874351C51CF310099CAEE /* Clock.m */,
+				CC2874371C51CF450099CAEE /* Person.h */,
+				CC2874381C51CF450099CAEE /* Person.m */,
+				CC28743A1C51CF4E0099CAEE /* Baby.h */,
+				CC28743B1C51CF4E0099CAEE /* Baby.m */,
+				CC28743D1C51CF540099CAEE /* Mother.h */,
+				CC28743E1C51CF540099CAEE /* Mother.m */,
+				CC2874401C51CF5F0099CAEE /* Father.h */,
+				CC2874411C51CF5F0099CAEE /* Father.m */,
+				CC2874431C51CFD50099CAEE /* NSObject+CareBaby.h */,
+				CC2874441C51CFD50099CAEE /* NSObject+CareBaby.m */,
+			);
+			path = CareBaby;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CC2874291C51CE930099CAEE /* CareBaby */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC2874311C51CE930099CAEE /* Build configuration list for PBXNativeTarget "CareBaby" */;
+			buildPhases = (
+				CC2874261C51CE930099CAEE /* Sources */,
+				CC2874271C51CE930099CAEE /* Frameworks */,
+				CC2874281C51CE930099CAEE /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CareBaby;
+			productName = CareBaby;
+			productReference = CC28742A1C51CE930099CAEE /* CareBaby */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CC2874221C51CE930099CAEE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = qingyun;
+				TargetAttributes = {
+					CC2874291C51CE930099CAEE = {
+						CreatedOnToolsVersion = 7.1;
+					};
+				};
+			};
+			buildConfigurationList = CC2874251C51CE930099CAEE /* Build configuration list for PBXProject "CareBaby" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CC2874211C51CE930099CAEE;
+			productRefGroup = CC28742B1C51CE930099CAEE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CC2874291C51CE930099CAEE /* CareBaby */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CC2874261C51CE930099CAEE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC2874391C51CF450099CAEE /* Person.m in Sources */,
+				CC2874421C51CF5F0099CAEE /* Father.m in Sources */,
+				CC2874361C51CF310099CAEE /* Clock.m in Sources */,
+				CC28742E1C51CE930099CAEE /* main.m in Sources */,
+				CC28743C1C51CF4E0099CAEE /* Baby.m in Sources */,
+				CC2874451C51CFD50099CAEE /* NSObject+CareBaby.m in Sources */,
+				CC28743F1C51CF540099CAEE /* Mother.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		CC28742F1C51CE930099CAEE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		CC2874301C51CE930099CAEE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		CC2874321C51CE930099CAEE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CC2874331C51CE930099CAEE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CC2874251C51CE930099CAEE /* Build configuration list for PBXProject "CareBaby" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC28742F1C51CE930099CAEE /* Debug */,
+				CC2874301C51CE930099CAEE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC2874311C51CE930099CAEE /* Build configuration list for PBXNativeTarget "CareBaby" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC2874321C51CE930099CAEE /* Debug */,
+				CC2874331C51CE930099CAEE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CC2874221C51CE930099CAEE /* Project object */;
+}

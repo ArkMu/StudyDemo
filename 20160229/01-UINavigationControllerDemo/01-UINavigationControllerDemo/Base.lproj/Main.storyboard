@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9059" systemVersion="15C50" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="aBW-SP-Vmj">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9049"/>
+        <capability name="Navigation items with more than one left or right bar item" minToolsVersion="7.0"/>
+    </dependencies>
+    <scenes>
+        <!--首页-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="STP-Lz-ofw">
+                                <rect key="frame" x="139" y="175" width="97" height="30"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <outlet property="delegate" destination="BYZ-38-t0r" id="NZ3-Vd-Gdz"/>
+                                </connections>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QsW-If-fXZ">
+                                <rect key="frame" x="165" y="289" width="45" height="30"/>
+                                <animations/>
+                                <state key="normal" title="下一页"/>
+                                <connections>
+                                    <segue destination="cJM-6b-HIc" kind="show" id="lt1-eg-n0z"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <toolbarItems>
+                        <barButtonItem style="plain" systemItem="flexibleSpace" id="iqa-OD-VSd"/>
+                        <barButtonItem title="微信好友" id="wz0-bV-OLF"/>
+                        <barButtonItem style="plain" systemItem="flexibleSpace" id="w7e-CL-LqO"/>
+                        <barButtonItem title="朋友圈" id="6qO-19-OfB"/>
+                        <barButtonItem style="plain" systemItem="flexibleSpace" id="7zm-Ka-5Yd"/>
+                        <barButtonItem title="qq" id="LKT-2y-5Yu"/>
+                        <barButtonItem style="plain" systemItem="flexibleSpace" id="bAs-8j-CiM"/>
+                        <barButtonItem title="空间" id="BXN-pe-1rT"/>
+                        <barButtonItem style="plain" systemItem="flexibleSpace" id="4xb-eK-AhG"/>
+                        <barButtonItem title="微博" id="JAL-CW-bdL"/>
+                        <barButtonItem style="plain" systemItem="flexibleSpace" id="5bV-ia-Q7a"/>
+                    </toolbarItems>
+                    <navigationItem key="navigationItem" title="首页" prompt="加载中..." id="Ai0-sg-7M2">
+                        <barButtonItem key="leftBarButtonItem" title="菜单" style="plain" id="BiH-9Q-MUa">
+                            <color key="tintColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                            <connections>
+                                <action selector="menu:" destination="BYZ-38-t0r" id="s4a-9d-j4f"/>
+                            </connections>
+                        </barButtonItem>
+                        <rightBarButtonItems>
+                            <barButtonItem title="收藏" id="ics-xl-6dr"/>
+                            <barButtonItem title="分享" id="ovU-6U-qJc"/>
+                        </rightBarButtonItems>
+                    </navigationItem>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="878.5" y="-386.5"/>
+        </scene>
+        <!--View Controller2-->
+        <scene sceneID="PQE-JN-lGd">
+            <objects>
+                <viewController id="cJM-6b-HIc" customClass="ViewController2" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="MI8-oF-Kvx"/>
+                        <viewControllerLayoutGuide type="bottom" id="zvP-7g-d94"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="FRW-J8-6od">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <animations/>
+                        <color key="backgroundColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <toolbarItems>
+                        <barButtonItem width="42" style="plain" systemItem="fixedSpace" id="18p-cE-HxP"/>
+                        <barButtonItem title="美食" id="et4-YU-Up2"/>
+                        <barButtonItem style="plain" systemItem="flexibleSpace" id="uaT-pe-yqy"/>
+                        <barButtonItem title="旅行" id="68C-sN-mv1"/>
+                        <barButtonItem style="plain" systemItem="flexibleSpace" id="Uhp-ts-2v0"/>
+                    </toolbarItems>
+                    <navigationItem key="navigationItem" id="ale-cy-Dqb"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="B4b-oX-h7a" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1357.5" y="-386.5"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="2HC-AA-MSM">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" toolbarHidden="NO" id="aBW-SP-Vmj" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="aa8-K3-FNI">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <animations/>
+                        <color key="backgroundColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="barTintColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <textAttributes key="titleTextAttributes">
+                            <offsetWrapper key="textShadowOffset" horizontal="0.0" vertical="0.0"/>
+                        </textAttributes>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <toolbar key="toolbar" opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="rRV-fP-Hav">
+                        <rect key="frame" x="0.0" y="556" width="600" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <animations/>
+                    </toolbar>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="QJm-ll-bWQ"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hBE-kJ-y1l" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="309" y="-386"/>
+        </scene>
+    </scenes>
+</document>

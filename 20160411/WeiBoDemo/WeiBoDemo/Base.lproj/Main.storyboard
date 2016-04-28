@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="15C50" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="Wjk-id-zo2">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="NNe-GM-WBC">
+                        <barButtonItem key="leftBarButtonItem" title="登陆" id="Zp9-rz-yDf">
+                            <connections>
+                                <action selector="login:" destination="BYZ-38-t0r" id="KJ9-w4-hpV"/>
+                            </connections>
+                        </barButtonItem>
+                        <barButtonItem key="rightBarButtonItem" title="发微博" id="sIN-LG-5a0">
+                            <connections>
+                                <segue destination="Dpn-WY-lUr" kind="presentation" id="NXG-GY-dcO"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="93" y="355"/>
+        </scene>
+        <!--微博-->
+        <scene sceneID="1t7-4f-iQr">
+            <objects>
+                <viewController id="Pl9-8Z-LHo" customClass="SendVC" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="duY-Jr-D9c"/>
+                        <viewControllerLayoutGuide type="bottom" id="BYh-Ac-yCy"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="JuR-FU-HTh">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="GS6-KB-NmG">
+                                <rect key="frame" x="20" y="72" width="560" height="261"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="261" id="Ue6-MI-VqC"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="GS6-KB-NmG" secondAttribute="trailing" constant="20" id="6TJ-vW-CvY"/>
+                            <constraint firstItem="GS6-KB-NmG" firstAttribute="leading" secondItem="JuR-FU-HTh" secondAttribute="leading" constant="20" id="HQg-ox-q0a"/>
+                            <constraint firstItem="GS6-KB-NmG" firstAttribute="top" secondItem="duY-Jr-D9c" secondAttribute="bottom" constant="8" id="k8B-No-cfY"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="微博" id="Sfv-H0-pVZ">
+                        <barButtonItem key="leftBarButtonItem" title="取消" id="TIC-dx-ODP">
+                            <connections>
+                                <action selector="cancel:" destination="Pl9-8Z-LHo" id="Uvk-E4-7qO"/>
+                            </connections>
+                        </barButtonItem>
+                        <barButtonItem key="rightBarButtonItem" title="发送" id="P4G-Dp-bgJ">
+                            <connections>
+                                <action selector="send:" destination="Pl9-8Z-LHo" id="YBD-Cp-qTM"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="textView" destination="GS6-KB-NmG" id="m7P-bB-Y5d"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ews-bE-jeN" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1515" y="355"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="iBf-ec-QkZ">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Wjk-id-zo2" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="x1Y-oO-coD">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="fNV-An-9Cl"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="00E-5v-pEb" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="93" y="-397"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="kJB-Ry-0Qf">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Dpn-WY-lUr" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="EcS-YS-JC5">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="Pl9-8Z-LHo" kind="relationship" relationship="rootViewController" id="fCo-eh-7hL"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Nbv-kx-Mho" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="807" y="355"/>
+        </scene>
+    </scenes>
+</document>
